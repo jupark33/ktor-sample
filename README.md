@@ -37,3 +37,11 @@ If the server starts successfully, you'll see the following output:
 2024-12-04 14:32:45.682 [main] INFO  Application - Responding at http://0.0.0.0:8080
 ```
 
+```
+POST http://127.0.0.1:8080/api/v1/echo HTTP/1.1
+content-type: application/json
+
+{
+    "message": "Hello World"
+}
+```
